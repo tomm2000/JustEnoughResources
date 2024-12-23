@@ -2,6 +2,7 @@ name: 'Build'
 
 on:
   push:
+  workflow_dispatch:
 
 env:
   MODRINTH_TOKEN: ${{ secrets.PUBLISH_MODRINTH_TOKEN }}
